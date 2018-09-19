@@ -14,7 +14,17 @@ int main()
   std::cout<<"Now please give me your last name.";
   std::cin>>lastname;
 
-  //tell fortune
+  std::string nickfirst;
+  nickfirst = firstname[0];
+  std::string nicklast;
+  nicklast = lastname[0];
+
+  std::cout<<"Welcome, ";
+  std::cout<<nickfirst;
+  std::cout<<".";
+  std::cout<<nicklast;
+  std::cout<<".";
+  std::cout<<", here is your fortune..."<<endl;
 
   return 0;
 }
