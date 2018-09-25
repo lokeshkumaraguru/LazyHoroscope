@@ -10,10 +10,10 @@ int main()
   std::string lastname;
   int lucky;
 
-  std::cout<<"Hello. Please give me your first name.";
+  std::cout<<"What is your first name?";
   std::cin>>firstname;
   std::cout<<endl;
-  std::cout<<"Now please give me your last name.";
+  std::cout<<"What is your last name?";
   std::cin>>lastname;
   std::cout<<endl;
 
@@ -32,7 +32,7 @@ int main()
   lucky = firstname.length();
   std::cout<<"your lucky number is ";
   std::cout<<lucky;
-  std::cout<<"."<<endl;
+  std::cout<<endl;
 
   if(firstname[0] == 'A' || firstname[0] == 'a' || firstname[0] == 'E' || firstname[0] == 'e' || firstname[0] == 'I' || firstname[0] == 'i' || firstname[0] == 'O' || firstname[0] == 'o' || firstname[0] == 'U' || firstname[0] == 'u')
   {
