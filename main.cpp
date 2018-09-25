@@ -12,8 +12,10 @@ int main()
 
   std::cout<<"Hello. Please give me your first name.";
   std::cin>>firstname;
+  std::cout<<endl;
   std::cout<<"Now please give me your last name.";
   std::cin>>lastname;
+  std::cout<<endl;
 
   std::string nickfirst;
   nickfirst = firstname[0];
